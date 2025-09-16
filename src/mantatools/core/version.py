@@ -3,7 +3,7 @@ Version management for MantaTools
 """
 
 # Current version - update this when releasing
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 # GitHub repository URL
 REPO_URL = "https://github.com/mansokwu/mansokwu.git"
