@@ -1,0 +1,26 @@
+module MantaTools
+MantaTools 1.0 main.qml
+
+# Components
+CustomButton 1.0 components/CustomButton.qml
+CustomTextField 1.0 components/CustomTextField.qml
+CustomCheckBox 1.0 components/CustomCheckBox.qml
+CustomTabButton 1.0 components/CustomTabButton.qml
+Sidebar 1.0 components/Sidebar.qml
+Header 1.0 components/Header.qml
+NavButton 1.0 components/NavButton.qml
+RightPanel 1.0 components/RightPanel.qml
+CollapsibleSection 1.0 components/CollapsibleSection.qml
+RequirementsTabs 1.0 components/RequirementsTabs.qml
+SettingsCard 1.0 components/SettingsCard.qml
+PathRow 1.0 components/PathRow.qml
+ComingSoonNotification 1.0 components/ComingSoonNotification.qml
+ToastNotification 1.0 components/ToastNotification.qml
+ToastManager 1.0 components/ToastManager.qml
+AuthGate 1.0 components/AuthGate.qml
+LoadingSpinner 1.0 components/LoadingSpinner.qml
+
+# Pages
+GameListPage 1.0 pages/GameListPage.qml
+GameDetailPage 1.0 pages/GameDetailPage.qml
+LibraryPage 1.0 pages/LibraryPage.qml
