@@ -129,7 +129,7 @@ def main():
     
     print("\nSetup completed!")
     print("\nNext steps:")
-    print("1. Push to GitHub: git push -u origin main")
+    print("1. Push to GitHub: git push -u origin master")
     print("2. Create first release: python release.py 1.0.0")
     print("3. Test auto-update system")
     
@@ -139,11 +139,11 @@ def main():
         try:
             subprocess.run(["git", "add", "."], check=True)
             subprocess.run(["git", "commit", "-m", "Setup auto-update system"], check=True)
-            subprocess.run(["git", "push", "-u", "origin", "main"], check=True)
+            subprocess.run(["git", "push", "-u", "origin", "master"], check=True)
             print("Pushed to GitHub successfully!")
         except subprocess.CalledProcessError as e:
             print(f"Error pushing to GitHub: {e}")
-            print("Please push manually: git push -u origin main")
+            print("Please push manually: git push -u origin master")
 
 if __name__ == "__main__":
     main()
